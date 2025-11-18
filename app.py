@@ -10,8 +10,8 @@ import gradio as gr
 
 # --- Config ---
 MODEL_PATH = "model.pkl"
-SCALER_PATH = "models/scaler.pkl"
-FEATURES_PATH = "models/feature_names.pkl"
+SCALER_PATH = "scaler.pkl"
+FEATURES_PATH = "feature_names.pkl"
 PLOTS_DIR = "plots"
 
 os.makedirs(PLOTS_DIR, exist_ok=True)
